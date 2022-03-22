@@ -14,6 +14,7 @@ class Program
             input = Console.ReadLine();
         } while (!int.TryParse(input, out maxNumber));
 
+        // Print all numbers between 0 and maxNumber
         for (int i = 0; i < maxNumber; i++)
         {
             isPrime = true; // The number is assumed to be a prime number until otherwise proven.
